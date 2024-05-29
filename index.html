@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Architect Lausanne</title>
+  </head>
+
+  <body>
+    <div class="main_content">
+      <header id="top">
+        <img src="logo.png" alt="logo" class="logo" />
+        <div class="header_right">
+          <ul class="nav-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#clients">Reviews</a></li>
+            <li><a href="#prices">Prices</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+          <select
+            id="language"
+            name="LanguageSelect"
+            data-uia="language-picker-header"
+          >
+            <option lang="de" label="Deutsch" value="de-CH">Deutsch</option>
+            <option lang="fr" label="Français" value="fr-CH" selected="">
+              Français
+            </option>
+            <option lang="en" label="English" value="en-CH">English</option>
+          </select>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </div>
+      </header>
+      <div class="main_txt">
+        <h1 class="main">Architectural solution for your ideas</h1>
+        <a class="contact" role="button" href="#form">Contact us</a>
+      </div>
+    </div>
+    <div class="services" id="services">
+      <h2>Our services</h2>
+      <p class="txtsmall">
+        We create functional design projects from the smallest to the largest
+        spaces
+      </p>
+      <ul class="service_blocks">
+        <li class="service_block">
+          <img class="service_icon" src="service_1.png" alt="" />
+          <h3>Land</h3>
+          <p>
+            We design apartments interiors of both large and small areas. We
+            know how to create better space in any room.
+          </p>
+        </li>
+        <li class="service_block">
+          <img class="service_icon" src="service_2.png" alt="" />
+          <h3>House</h3>
+          <p>
+            We create design for private houses of any size and layout. We know
+            how to create comfortable and cozy living area.
+          </p>
+        </li>
+        <li class="service_block">
+          <img class="service_icon" src="service_3.png" alt="" />
+          <h3>Apartament</h3>
+          <p>
+            We take care of all associated with the project: work with
+            recommended construction contractors.
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="about" id="about">
+      <div class="portrait">
+        <img src="portrait.jpeg" alt="" class="portrait_img" />
+      </div>
+      <h2>Riccardo Di Stefano</h2>
+      <p class="txtsmall">Reliable architect and expert</p>
+      <p class="long_txt">
+        We are Amsterdam-based marketing consultants specializing in fitness and
+        sports brands. We are constantly in touch with the markets of tomorrow
+        and build business proposals for growing companies. We are currently
+        open to job offers.
+      </p>
+      <a class="contact" role="button" href="#form">Contact us</a>
+    </div>
+    <!--
+    <div class="gallery">
+    
+        <div>
+          <img class="gallery_img_big" src="gallery_1.png" alt="" />
+          <ul class="gallery_imgs">
+            <li ><img class="gallery_img" src="gallery_2.png" alt="" /></li>
+            <li><img class="gallery_img" src="gallery_3.png" alt="" /></li>
+            <li><img class="gallery_img" src="gallery_4.jpeg" alt="" /></li>
+            
+          </ul>
+        </div>
+        <div class="gallery_txt">
+        <h3>CHAILLY BUILDING 10-12</h3>
+        <p class="txtbig">
+          LOGEMENTS, COMMERCES ET BUREAUX À CHAILLY/LAUSANNE – VD
+        </p>
+        <p>
+          Housing, shops and offices. The building is made up of forty housing
+          units from 32 m2 to 133 m2. Six offices/retails from 63 m2 to 153 m2,
+          a branch bank of 200 m2 and indoor parking spaces. On the west side,
+          the existing park has been completely redesigned in collaboration with
+          the Parks and Lands Service of the City of Lausanne. A playground
+          completes the uses of the new building.
+        </p>
+        
+    </div>
+      </div>-->
+      
+      <!--
+        <div class="clients" id="clients">
+            <h2>Our Clients Love Us</h2>
+            <ul class="client">
+                <li class="client_li"><div class="review_box_img"><img src="reviews_1.jpg" alt="" class="review"></div> <h3>Sarah Lewin</h3><p class="txtsmall">Project manager in Pixels</p></p><p>I think if you do something and it turns out pretty good, then you should go do something else wonderful, not dwell on it for too long.</p></li>
+                <li class="client_li"><div class="review_box_img"><img src="reviews_2.jpg" alt="" class="review"> </div><h3>Samuel Willson</h3><p class="txtsmall">Creative director in DD agency</p><p>Before incorporating visual aids into speeches, the speaker should understand that if used incorrectly, the visual will not be an aid, but a distraction.</p></li>
+                <li class="client_li"><div class="review_box_img"><img src="reviews_3.jpg" alt="" class="review"> </div><h3>Alex Larkins</h3><p class="txtsmall">Founder of Pic Pen studio</p><p>You can't connect the dots looking forward, you can only connect them looking backwards.</p></li>
+            </ul>-->
+ <div class="gallery">   
+  <h2>Finished projects</h2>       
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="gallery_1.png" style="width:60%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="gallery_2.png" style="width:60%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="gallery_3.png" style="width:60%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="gallery_4.jpeg" style="width:60%">
+  </div>
+
+
+  
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="gallery_1.png" style="width:100%" onclick="currentSlide(1)" alt="LES FICHES NORD – LOT 7 -NORD,
+LAUSANNE – VD">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="gallery_2.png" style="width:100%" onclick="currentSlide(2)" alt="CHAILLY BUILDING 10-12 / LOGEMENTS, COMMERCES ET BUREAUX À,CHAILLY/LAUSANNE – VD">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="gallery_3.png" style="width:100%" onclick="currentSlide(3)" alt="LES FICHES NORD – LOT 7 – SUD,
+LAUSANNE – VD">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="gallery_4.jpeg" style="width:100%" onclick="currentSlide(4)" alt="FICHES NORD - LOT 7 - AMÉN.EXT., LAUSANNE - VD">
+    </div>
+    </div> 
+  <!--End-->
+  </div>
+</div>
+    </div>
+    <div class="prices_div" id="prices">
+      <h2>Our prices</h2>
+      <p class="txtbig">
+        Explore our rates and choose one that suits you. Contact us to order
+        your design project.
+      </p>
+      <ul class="prices">
+        <li class="price">
+          <h3>Basic</h3>
+          <p class="numbers">€30/m²</p>
+          <p class="description">
+            Two planning solutions 3D visualization of all rooms Working
+            documentation
+          </p>
+          <a class="contact" role="button" href="#form">Order now</a>
+        </li>
+        <li class="price">
+          <h3>Standard</h3>
+          <p class="numbers">€50/m²</p>
+          <p class="description">
+            Four planning solution 3D visualization of all rooms Working
+            documentation Specification of furniture
+          </p>
+          <a class="contact" role="button" href="#form">Order now</a>
+        </li>
+        <li class="price">
+          <h3>Premium</h3>
+          <p class="numbers">€70/m²</p>
+          <p class="description">
+            Unlimited planning solutions 3D visualization of all rooms Working
+            documentation Work with suppliers and contractors
+          </p>
+          <a class="contact" role="button" href="#form">Order now</a>
+        </li>
+      </ul>
+    </div>
+    <div class="steps" id="steps">
+      <h2>How do we work</h2>
+      <ul>
+        <li class="icon_steps">
+          <img src="step_1.png" alt="" class="icon" />
+          <div>
+            <h3>Preliminary sketch</h3>
+            <p class="long_txt">
+              Definition of stylistic solutions of the interior, preparation of
+              technical specifications, planning decisions, collages for all
+              rooms.
+            </p>
+          </div>
+        </li>
+        <li class="icon_steps">
+          <img src="step_2.png" alt="" />
+          <div>
+            <h3>Visualization of the project</h3>
+            <p class="long_txt">
+              Detailed visualization of each room. 3D images take into account
+              the previously selected interior elements and finishing materials.
+            </p>
+          </div>
+        </li>
+        <li class="icon_steps">
+          <img src="step_3.png" alt="" />
+          <div>
+            <h3>Working documentation</h3>
+            <p class="long_txt">
+              Creation of working documentation for the design project of the
+              interior: area measurements and planning a solution with
+              furniture.
+            </p>
+          </div>
+        </li>
+        <li class="icon_steps">
+          <img src="step_4.png" alt="" />
+          <div>
+            <h3>Author supervision</h3>
+            <p class="long_txt">
+              Control of compliance of construction works with the design
+              project. Our designer and technologist will visit regularly to
+              supervise the object. We realize scheduling and procurement of
+              materials.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="contacts" id="contacts">
+      <span class="contact_us">
+        <h2>Contact us</h2>
+        <p class="txtbig">+1 123 456 78 90 hello@sphere.com</p>
+        <p>Loft Pineapple, 22 Kettenhofweg, Frankfurt</p>
+        <ul class="icons_sm">
+          <li><img src="" alt="" /></li>
+          <li><img src="" alt="" /></li>
+          <li><img src="" alt="" /></li></ul
+      ></span>
+      <div class="form-container" id="form">
+        <div class="input-group">
+          <input
+            type="email"
+            autocomplete="email"
+            name="Email"
+            id="email"
+            class="input"
+            placeholder="Your Email"
+            required
+          />
+          <div class="input-error" id="error_email"></div>
+        </div>
+
+        <div class="input-group">
+          <input
+            type="text"
+            autocomplete="name"
+            name="Name"
+            id="name"
+            class="input"
+            placeholder="Your Full Name"
+            required
+          />
+          <div class="input-error" id="error_name"></div>
+        </div>
+
+        <div class="input-group">
+          <textarea
+            name="Textarea"
+            id="textarea"
+            class="input"
+            placeholder="Your comments"
+            rows="3"
+            required
+          ></textarea>
+          <div class="input-error" id="error_textarea"></div>
+        </div>
+
+        <div class="form-errorbox" style="display: none">
+          <ul class="error-list">
+            <li class="error-item">Please fill in all required fields.</li>
+            <li class="error-item">Please enter a valid email address.</li>
+            <li class="error-item">
+              Your name must be at least 2 characters long.
+            </li>
+          </ul>
+        </div>
+
+        <div class="form-submit">
+          <a class="submit-button" role="button" href="">Send</a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div>
+        <p class="txtsmall">© Liubov Kulyk 2024</p>
+      </div>
+    </footer>
+    <button id="scrollToTopBtn" class="scrollToTopBtn">&uarr;</button>
+    <script src="script.js"></script>
+  </body>
+</html>
